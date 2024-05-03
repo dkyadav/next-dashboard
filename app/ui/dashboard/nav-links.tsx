@@ -42,7 +42,7 @@ export default function NavLinks() {
             )}
           >
             <LinkIcon className="w-6" />
-            <DocumentDuplicateIcon className="w-4"/>
+            {/* <DocumentDuplicateIcon className="w-4"/> */}
             <p className="hidden md:block">{link.name}</p>
           </Link>
         );
